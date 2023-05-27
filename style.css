@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.valores .button1, .button2{
+    font-weight: 800;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.valores .button3{
+    font-weight: 800;
+    color: white;
+    padding: 1rem 1.5rem 1rem 1rem;
+    border-radius: 2rem;
+}
+
+.valores .button4{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    padding: 1rem 1.9rem 1rem 1rem;
+    border-radius: 2rem;
+    background-color: #13b6d3;
+}
+
+.valores1 .button8{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    padding: 1rem 1.7rem 1rem 1rem;
+    border-radius: 2rem;
+    background-color: #13b6d3;
+}
+.operators1 .button19{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    padding: 1rem 1.7rem 1rem 1rem;
+    border-radius: 2rem;
+    background-color: #13b6d3;
+}
+
+.operators .button16{
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    padding: 1rem 1.7rem 1rem 1rem;
+    border-radius: 2rem;
+    background-color: #13b6d3;
+}
+
+.valores1 input{
+    font-weight: 800;
+    margin-top: 1rem;
+    padding: 1rem 1.7rem 1rem 1rem;
+    border-radius: 2rem;
+}
+
+.valores1 .button5{
+
+}
+
+.valores input{
+    margin-top: 2rem;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+}
+
+.valores1 input{
+    color: white;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+}
+
+.valores2 input{
+    font-weight: 800;
+    border-radius: 2rem;
+    color: white;
+    padding: 1.2rem 1.7rem 1rem 1rem;
+    margin-top: 1rem;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+}
+
+.valores2 .button12{
+    border-radius: 2rem;
+    color: white;
+    padding: 1.1rem 1.7rem 1rem 1.3rem;
+    margin-top: 1rem;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+    background-color: #13b6d3;
+}
+
+.operators input{
+    margin-top: 1rem;
+    font-weight: 800;
+    padding: 1.2rem 1.7rem 1rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    font-weight: 800;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+}
+
+.operators1 input{
+    margin-top: 1rem;
+    color: white;
+    border-radius: 2rem;
+    padding: 1.2rem 1.8rem 1rem 1rem;
+    font-weight: 800;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+}
+
+.operators1 .button18{
+    padding: 1rem 1.9rem 1rem 1rem;
+}
+
+.operators1 .button17{
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem 5.4rem 1rem 1rem;
+    font-weight: 800;
+    background: transparent;
+    border: #13b6d3 solid 2px;
+}
+
+.operators input:hover{
+    color: #000000;
+    background: linear-gradient(#13b6d3, #b7d7dd);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.operators1 input:hover{
+    color: #000000;
+    background: linear-gradient(#13b6d3, #b7d7dd);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.valores input:hover{
+    color: #000000;
+    background: linear-gradient(#13b6d3, #b7d7dd);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.valores .button4:hover {
+    color: white;
+    background: linear-gradient(#000000, #383e3f);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.valores1 .button8:hover {
+    color: white;
+    background: linear-gradient(#000000, #383e3f);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.valores2 .button12:hover {
+    color: white;
+    background: linear-gradient(#000000, #383e3f);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.operators .button16:hover {
+    color: white;
+    background: linear-gradient(#000000, #383e3f);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.operators1 .button19:hover {
+    color: white;
+    background: linear-gradient(#000000, #383e3f);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.valores1 input:hover{
+    color: #000000;
+    background: linear-gradient(#13b6d3, #b7d7dd);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.valores2 input:hover{
+    color: #000000;
+    background: linear-gradient(#13b6d3, #b7d7dd);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.tudo{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    left: 40rem;
+    top: 6rem;
+    gap: 15px;
+    background-color: black;
+    padding: 2rem;
+    border-radius: 4rem;
+    border: #13b6d3 3px solid;
+}
+
+.input{
+    width: 15rem;
+    height: 5rem;
+    border-radius: 5rem;
+    background: linear-gradient(#13b6d3, #b7d7dd);
+    color: black;
+    text-align: right;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+body{
+    background: linear-gradient(90deg, #4913d3, #c984b1);
+}
